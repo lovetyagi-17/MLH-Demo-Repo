@@ -1,0 +1,24 @@
+<div class="body-wrapper">
+    <app-header></app-header>
+    <div class="row">
+        <div class="column" *ngFor="let product of products"><br><br><br>
+          <div class="card">
+            <div class="single-products">
+                <img class="card-img-top" src="../../../../assets/img/one.png" alt="Card image">
+            </div>
+            <div class="product-overlay">
+                <div class="overlay-content"  >
+                    <h4 class="card-title">Product - {{ product.productName }}</h4>
+                    <p class="card-text"><b>Price - </b>${{ product.price }}</p>
+                    <p class="card-text"><b>InStock - </b>{{ product.quantity }}</p>
+                    <p class="card-text"><b>OverAll-Review - </b>{{ product.description }}</p>
+                    <a href="dashboard/product-detail/{{product._id }}" class="btn btn-primary">Details</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <!-- <a href="dashboard/cart/{{this.carts}}" class="btn btn-primary">AddToCart</a> -->
+                    <button type="submit" class="btn btn-primary" (click)="addToCart(product._id)">AddToCart</button>
+                </div> 
+            </div>
+          </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>

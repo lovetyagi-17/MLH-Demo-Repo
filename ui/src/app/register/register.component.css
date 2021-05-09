@@ -1,0 +1,23 @@
+.contents {
+    height: 500px;
+    margin-top: 30px;
+}
+.contents h3{
+    text-align: center;
+}
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contents-item {
+    float: left;
+    margin-left: 200px;
+}
+
+.contents-item p{
+    font-size: 24px;
+    margin-top: 30px;
+}
