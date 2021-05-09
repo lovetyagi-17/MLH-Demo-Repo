@@ -6,8 +6,8 @@ An project have UI &amp; API in MEAN-Stack. The app have feature of authenticati
 - [x] user-login
 - [x] all-product-view
 - [x] single products details
-- [ ] add to cart
-- [ ] clear-cart
+- [x] add to cart
+- [x] clear-cart
 
 
 
