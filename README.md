@@ -11,7 +11,7 @@ An project have UI &amp; API in MEAN-Stack. The app have feature of authenticati
 
 
 
-<h4 align="center">A desktop app based on "mean-stack" </a>.</h4>
+<h4 align="center">A desktop app based on "MEAN-Stack" </a>.</h4>
 
 ## Post-Installation
 - You must have node in your system. 
