@@ -20,13 +20,13 @@ router.post('/user-register', async (request, response) => {
         var transport = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'lovetyagi17061998@gmail.com',
-                pass: 'Lovetyagi@123'
+                user: 'xyz@gmail.com',   // Enter Your gmail here. 
+                pass: 'Password'   // Enter your passowrd here
             }
         });
 
         var mailOptions = {
-            from: 'lovetyagi17061998@gmail.com',
+            from: 'xyz@gmail.com',   // Enter Your gmail here.
             to: user.email ,
             subject: "Successfull Registration!",
             html: `Welcome ${user.firstName} To Enigma.<br/> Thank you for registration.<br/>
